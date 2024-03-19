@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+pre {
+ white-space: pre-wrap; 
+ font-family: "PT Mono", monospace;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 19.25px; /* Adjusted font size */
+ color: black; 
+ margin-left: 5px;
+ margin-top: 4px;
+ text-transform: uppercase;
+will-change: color;
+}
+
+.colorwhite {
+color: white;
+transition: color 0.1s ease-in, opacity 4s ease-in;
+}
+
+.colorwhite1{
+    color: rgb(0, 0, 0);
+}
+.colorwhite2{
+    color:white;
+}
+
+#secondText {
+ position: absolute;
+ top: 4px; /* Adjust to match the margin-top of the first text */
+ left: 8px; /* Adjust to match the margin-left of the first text */
+ z-index: -1;
+ pointer-events: none;
+ font-family: "PT Mono", monospace; /* Match the font family */
+ font-weight: 400; /* Match the font weight */
+ font-style: normal; /* Match the font style */
+ font-size: 19.25px; /* Match the font size */
+ color: black; /* Match the text color */
+ white-space: pre-wrap; /* Match the white-space */
+ text-transform: uppercase; /* Match the text transformation */
+ display: none; /* Initially hidden */
+ transition: all ease-out;
+ transition-duration: 8s;
+}
+
+#thirdText {
+ position: absolute;
+ top: 4px; /* Adjust to match the margin-top of the first text */
+ left: 8px; /* Adjust to match the margin-left of the first text */
+ z-index: -2;
+ pointer-events: none;
+ font-family: "PT Mono", monospace; /* Match the font family */
+ font-weight: 400; /* Match the font weight */
+ font-style: normal; /* Match the font style */
+ font-size: 19.25px; /* Match the font size */
+ color: black; /* Match the text color */
+ white-space: pre-wrap; /* Match the white-space */
+ text-transform: uppercase; /* Match the text transformation */
+ display: none; /* Initially hidden */
+ transition: all ease-in;
+ transition-duration: 8s;
+}
+
+#fourthText {
+ position: absolute;
+ top: 4px; /* Adjust to match the margin-top of the first text */
+ left: 8px; /* Adjust to match the margin-left of the first text */
+ z-index: -1;
+ pointer-events: none;
+ font-family: "PT Mono", monospace; /* Match the font family */
+ font-weight: 400; /* Match the font weight */
+ font-style: normal; /* Match the font style */
+ font-size: 19.25px; /* Match the font size */
+ color: black; /* Match the text color */
+ white-space: pre-wrap; /* Match the white-space */
+ text-transform: uppercase; /* Match the text transformation */
+ /*display: none; Initially hidden */
+ transition: 2s;
+}
+#fifthText {
+ position: absolute;
+ top: 4px; /* Adjust to match the margin-top of the first text */
+ left: 8px; /* Adjust to match the margin-left of the first text */
+ z-index: -5;
+ pointer-events: none;
+ font-family: "PT Mono", monospace; /* Match the font family */
+ font-weight: 400; /* Match the font weight */
+ font-style: normal; /* Match the font style */
+ font-size: 19.25px; /* Match the font size */
+ color: black; /* Match the text color */
+ white-space: pre-wrap; /* Match the white-space */
+ text-transform: uppercase; /* Match the text transformation */
+ display: none; /* Initially hidden */
+}
+#sixthText {
+ position: absolute;
+ top: 4px; /* Adjust to match the margin-top of the first text */
+ left: 8px; /* Adjust to match the margin-left of the first text */
+ z-index: 0;
+ pointer-events: none;
+ font-family: "PT Mono", monospace; /* Match the font family */
+ font-weight: 400; /* Match the font weight */
+ font-style: normal; /* Match the font style */
+ font-size: 19.25px; /* Match the font size */
+ color: black; /* Match the text color */
+ white-space: pre-wrap; /* Match the white-space */
+ text-transform: uppercase; /* Match the text transformation */
+ display: none; /* Initially hidden */
+}
+#seventhText {
+ position: absolute;
+ top: 4px; /* Adjust to match the margin-top of the first text */
+ left: 8px; /* Adjust to match the margin-left of the first text */
+ z-index: -1;
+ pointer-events: none;
+ font-family: "PT Mono", monospace; /* Match the font family */
+ font-weight: 400; /* Match the font weight */
+ font-style: normal; /* Match the font style */
+ font-size: 19.25px; /* Match the font size */
+ color: black; /* Match the text color */
+ white-space: pre-wrap; /* Match the white-space */
+ text-transform: uppercase; /* Match the text transformation */
+ display: none; /* Initially hidden */
+}
+
+#eighthText {
+ position: absolute;
+ top: 4px; /* Adjust to match the margin-top of the first text */
+ left: 8px; /* Adjust to match the margin-left of the first text */
+ z-index: 3;
+ pointer-events: none;
+ font-family: "PT Mono", monospace; /* Match the font family */
+ font-weight: 400; /* Match the font weight */
+ font-style: normal; /* Match the font style */
+ font-size: 19.25px; /* Match the font size */
+ color: black; /* Match the text color */
+ white-space: pre-wrap; /* Match the white-space */
+ text-transform: uppercase; /* Match the text transformation */
+ display: none; /* Initially hidden */
+}
+
+#ninthText {
+    position: absolute;
+    top: 4px; /* Adjust to match the margin-top of the first text */
+    left: 8px; /* Adjust to match the margin-left of the first text */
+    z-index: 3;
+    pointer-events: none;
+    font-family: "PT Mono", monospace; /* Match the font family */
+    font-weight: 400; /* Match the font weight */
+    font-style: normal; /* Match the font style */
+    font-size: 19.25px; /* Match the font size */
+    color: black; /* Match the text color */
+    white-space: pre-wrap; /* Match the white-space */
+    text-transform: uppercase; /* Match the text transformation */
+    display: none; /* Initially hidden */
+   }
+
