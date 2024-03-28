@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Grid</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(6, 160px); /* Adjust height as needed */
+        gap: 0px; /* Adjust gap between images */
+        padding: 0px;
+    }
+    .grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        overflow: hidden;
+    }
+    .grid-item img {
+        max-width: 135%;
+        max-height: 135%;
+        object-fit: cover;
+    }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3695.jpg?v=1710355504998" alt="Image 1"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Untitled_Artwork%2017.jpg?v=1710355490713" alt="Image 2"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3685.jpg?v=1710386662457" alt="Image 3"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3629-2.jpg?v=1710386769336" alt="Image 4"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3780.jpg?v=1710445512235" alt="Image 5"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3777-2.jpg?v=1710446369343" alt="Image 6"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3764%202.jpg?v=1710449897516" alt="Image 7"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4332%202.jpg?v=1710707008167" alt="Image 8"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3911.jpg?v=1710529487809" alt="Image 9"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3938.jpg?v=1710529738467" alt="Image 10"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/garlic.jpg?v=1710530146689" alt="Image 11"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3918.jpg?v=1710530364337" alt="Image 12"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3947.jpg?v=1710533206892" alt="Image 13"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3960.jpg?v=1710534133589" alt="Image 14"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/narutomaki.jpg?v=1710534911414" alt="Image 15"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3967.jpg?v=1710537154798" alt="Image 16"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3974-3.jpg?v=1710538567414" alt="Image 17"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3993-2.jpg?v=1710561644218" alt="Image 18"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4022-2.jpg?v=1710542655324" alt="Image 19"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Untitled_Artwork%2018-2.jpg?v=1710543831722" alt="Image 20"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4382%202-3.jpg?v=1710692499416" alt="Image 21"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4411%202.jpg?v=1710692776016" alt="Image 22"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5143.jpg?v=1711429993385" alt="Image 23"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4415%202.jpg?v=1710693463508" alt="Image 24"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4393%202.jpg?v=1710693648085" alt="Image 25"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4375%202-2.jpg?v=1710694264585" alt="Image 26"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4256%202.jpg?v=1710694645591" alt="Image 27"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4279%202.jpg?v=1710695219331" alt="Image 28"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4267%202.jpg?v=1710696055405" alt="Image 29"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4319%202.jpg?v=1710696681596" alt="Image 30"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4307%202-2.jpg?v=1710697073806" alt="Image 31"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4276%202.jpg?v=1710697775223" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4240.jpg?v=1710698028872" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4026-2.jpg?v=1710703453110" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4359%202.jpg?v=1710706132287" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4368%202.jpg?v=1710706379034" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4216-2.jpg?v=1710708450996" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5071.jpg?v=1711430000094" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4248.jpg?v=1710709044147" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4294%202-2.jpg?v=1710709263577" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4196-2.jpg?v=1710711722683" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5141.jpg?v=1711429994607" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5143.jpg?v=1711429993385" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5075.jpg?v=1711429998539" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5071.jpg?v=1711430000094" alt="Image 32"></div>
+    <div class="grid-item"><img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5098.jpg?v=1711472512514" alt="Image 32"></div>
+    <div class="grid-item"><img src="hi" alt="Image 32"></div>
+    <div class="grid-item"><img src="hi" alt="Image 32"></div>
+    <div class="grid-item"><img src="hi" alt="Image 32"></div>
+    <div class="grid-item"><img src="hi" alt="Image 32"></div>
+
+</div>
+</body>
+</html>

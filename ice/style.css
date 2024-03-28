@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#scroll-tracker-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: 10;
+    overflow-y: scroll;
+    pointer-events: none;
+}
+
+#scroll-tracker {
+    height: 400%; /* Creates a scrollable space without visible content */
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, calc(100vw / 2));
+    grid-template-rows: repeat(1, calc(100vh / 1)); /* Adjust height as needed */
+    gap: 0px; /* Adjust gap between images */
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.grid-item img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+#modal-container {
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+}
+
+#modal-content {
+    display: flex;
+    flex-direction: row; /* Ensure modal content stacks vertically */
+    max-height: 100vh; /* Set maximum height to the height of the viewport */
+    overflow: hidden; /* Hide any content that overflows the container */
+    align-items: center;
+    position: relative;
+}
+
+    /* this changes the images size inside the grid, if you use % it makes it bigger */
+
+
+#modal-content > div {
+    flex: 1; /* Each container takes up half of the available space */
+    display: flex; /* Nested flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+#modal-content video {
+    width: 50%; /* Video takes up entire container width */
+    height: 50%; /* Video takes up entire container height */
+}
+
+#modal-content img {
+    max-width: 50%; /* Ensure image does not exceed container width */
+    max-height: 50%; /* Ensure image does not exceed container height */
+}
+
+
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 10; 
+    position: absolute;
+    top: 10px; /* Adjust top position */
+    right: 20px; /* Adjust right position */
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 10; 
+
+  }
+
+#text{
+    position: absolute;
+    font-size: 6vh;
+    color: rgb(217, 232, 233);
+    z-index: 100;
+    width: 100vw;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .item-title{
+    width: 100vw;
+    color: rgb(217, 232, 233);
+    font-size: 20px;
+    position: relative;
+    left: 1000px;
+    top: 40px;
+    font-family: Helvetica, sans-serif;
+  }
+
+  .item-color{
+    color: rgb(217, 232, 233);
+    font-size: 20px;
+    position: relative;
+    left: 700px;
+    width: 100vw;
+    top: 100px;
+    font-family: Helvetica, sans-serif;
+  }
+
+  .item-group{
+    color: rgb(89, 100, 101);
+    font-size: 20px;
+    position: relative;
+    left: 850px;
+    width: 100vw;
+    top: 450px;
+    font-family: Helvetica, sans-serif;
+  }
+
+  .item-origin{
+    color: rgb(89, 100, 101);
+    font-size: 20px;
+    width: 100vw;
+    position: relative;
+    left: 800px;
+    top: 700px;
+    font-family: Helvetica, sans-serif;
+  }

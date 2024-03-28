@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Split Screen with Hover Video</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+    .left, .right {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+    }
+    .left img, .right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; /* Add cursor pointer for indicating clickability */
+    }
+    .video-container video {
+        max-width: 320%;
+        max-height: 320%;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5126.jpg?v=1711429780149" alt="Left Image">
+        <div class="video-container" onclick="openNewPage()">
+            <video src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Plum.mp4?v=1710536896594" autoplay loop muted></video>
+        </div>
+    </div>
+    <div class="right">
+        <img src="https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3967.jpg?v=1710537154798" alt="Right Image">
+    </div>
+</div>
+
+<script>
+    const leftContainer = document.querySelector('.left');
+    const videoContainer = document.querySelector('.video-container');
+
+    leftContainer.addEventListener('mouseenter', function() {
+        videoContainer.style.display = 'flex';
+    });
+
+    leftContainer.addEventListener('mouseleave', function() {
+        videoContainer.style.display = 'none';
+    });
+
+    function openNewPage() {
+        window.open("https://seen-orange-file.glitch.me/hi/grid.html", "_blank"); // Opens a new page in a new tab
+    }
+</script>
+
+</body>
+</html>
