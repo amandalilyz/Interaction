@@ -14,17 +14,19 @@ const gridContainer = document.getElementById('grid-container');
 function generatePage(data) {
     data.forEach(item => {
         const currentDataEl = document.createElement('div');
+        const text = document.getElementById('text');
         currentDataEl.classList.add('grid-item');
         currentDataEl.dataset.videolink = item.videolink;
         currentDataEl.addEventListener('click', (event) => {
             const modalContainer = document.getElementById('modal-container');
+            const gridContainer = document.getElementById('grid-container');
             const modalContent = document.getElementById('modal-content');
             const target = event.target;
 
-            // Create the video player element
             const videoPlayer = document.createElement('video');
             videoPlayer.setAttribute('src', item.link2);
             videoPlayer.setAttribute('autoplay', 'true'); // Autoplay the video
+            videoPlayer.setAttribute('loop', 'true'); // Make the video loop
 
             // Create the image elements
             const image1 = document.createElement('img');
@@ -39,16 +41,31 @@ function generatePage(data) {
             modalContent.appendChild(image2); // Append second image
 
             modalContainer.style.display = 'block'; // Display modal
+            // text.style.display = "block";
+            text.innerHTML = '';
+
+            text.innerHTML = `
+            <span class="item-title">Title: ${item.title}</span>
+            <span class="item-color">Color: ${item.color}</span>
+            <span class="item-origin">Origin: ${item.origin}</span>
+            <span class="item-group">Group: ${item.group}</span>
+            <span class="close">&times;</span>
+            `
+            gridContainer.appendChild(text);
+            var close = document.querySelector('.close')
+            close.addEventListener("click", (event) => {
+            modalContainer.style = "none";
+            text.innerHTML = '';
+            })
         });
 
         const currentImage = document.createElement('img');
         currentImage.setAttribute('src', item.link);
         currentDataEl.appendChild(currentImage);
         gridContainer.appendChild(currentDataEl);
+
     });
 }
-
-
 
 
 // First, ensure the gridContainer has a fixed size and overflow is hidden to prevent actual scrolling

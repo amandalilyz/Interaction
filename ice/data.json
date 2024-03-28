@@ -5,7 +5,7 @@
       "title": "purple passion plant",
       "color": "purple",
       "origin": "park",
-      "type": "plant"
+      "group": "plant"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/2f7cee39-96df-4036-999d-3b1ce7f0b2f3.IMG_3967.jpg?v=1711596007411",
@@ -13,7 +13,7 @@
       "title": "nectarine",
       "color": "orange",
       "origin": "trader joes",
-      "type": "fruit"
+      "group": "fruit"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/fdf30541-5c7c-44df-9c24-df3d5b36a0e4.IMG_3695.jpg?v=1711596136813",
@@ -21,7 +21,7 @@
       "title": "imitation crab",
       "color": "pink",
       "origin": "h mart",
-      "type": "seafood"
+      "group": "seafood"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/0f7019fa-39b5-4978-b9d6-c7a804dd80bb.Untitled_Artwork%2017.jpg?v=1711596197683",
@@ -29,7 +29,7 @@
       "title": "yellow bell pepper",
       "color": "yellow",
       "origin": "trader joes",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3685.jpg?v=1711600175399",
@@ -37,7 +37,7 @@
       "title": "lotus root",
       "color": "creme",
       "origin": "h mart",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3629.jpg?v=1711600167008",
@@ -45,7 +45,7 @@
       "title": "enoki mushroom",
       "color": "creme",
       "origin": "dainobu",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3780.jpg?v=1711600168342",
@@ -53,7 +53,7 @@
       "title": "cilantro",
       "color": "green",
       "origin": "trader joes",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3777-2.jpg?v=1711600167849",
@@ -61,7 +61,7 @@
       "title": "nerds gummy clusters",
       "color": "multicolor",
       "origin": "cvs",
-      "type": "candy"
+      "group": "candy"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4332%202.jpg?v=1711599425348",
@@ -69,7 +69,7 @@
       "title": "strawberry",
       "color": "red",
       "origin": "trader joes",
-      "type": "fruit"
+      "group": "fruit"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3764%202.jpg?v=1711600167425",
@@ -77,7 +77,7 @@
       "title": "red curry",
       "color": "orange",
       "origin": "morton williams",
-      "type": "dish"
+      "group": "dish"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3911.jpg?v=1711600180298",
@@ -85,7 +85,7 @@
       "title": "red onion",
       "color": "purple",
       "origin": "trader joes",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3938.jpg?v=1711600182012",
@@ -93,7 +93,7 @@
       "title": "red chilli oil",
       "color": "red",
       "origin": "h mart",
-      "type": "spice"
+      "group": "spice"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3933.jpg?v=1711600181542",
@@ -101,7 +101,7 @@
       "title": "minced garlic",
       "color": "yellow",
       "origin": "trader joes",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3918.jpg?v=1711600180904",
@@ -109,7 +109,7 @@
       "title": "scallion",
       "color": "green",
       "origin": "dainobu",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3947.jpg?v=1711600186490",
@@ -117,7 +117,7 @@
       "title": "egg",
       "color": "yellow",
       "origin": "trader joes",
-      "type": "poultry"
+      "group": "poultry"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3960.jpg?v=1711600186873",
@@ -125,7 +125,7 @@
       "title": "soba noodles",
       "color": "creme",
       "origin": "dainobu",
-      "type": "grains"
+      "group": "grains"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3670.jpg?v=1711600179701",
@@ -133,7 +133,7 @@
       "title": "narutomaki fish cake",
       "color": "pink",
       "origin": "h mart",
-      "type": "seafood"
+      "group": "seafood"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3974.jpg?v=1711600187265",
@@ -141,7 +141,7 @@
       "title": "basil pesto",
       "color": "green",
       "origin": "trader joes",
-      "type": "sauce"
+      "group": "sauce"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_3993.jpg?v=1711600189436",
@@ -149,7 +149,7 @@
       "title": "sprinkles",
       "color": "multicolor",
       "origin": "costco",
-      "type": "candy"
+      "group": "candy"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4022.jpg?v=1711600190671",
@@ -157,7 +157,7 @@
       "title": "matcha icecream",
       "color": "green",
       "origin": "morton williams",
-      "type": "dairy"
+      "group": "dairy"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Untitled_Artwork%2018.jpg?v=1711600194752",
@@ -165,7 +165,7 @@
       "title": "button mushroom",
       "color": "brown",
       "origin": "trader joes",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4382%202.jpg?v=1711600191697",
@@ -173,7 +173,7 @@
       "title": "popcorn",
       "color": "yellow",
       "origin": "costco",
-      "type": "grains"
+      "group": "grains"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4411%202.jpg?v=1711600192485",
@@ -181,7 +181,7 @@
       "title": "herbal jelly",
       "color": "black",
       "origin": "h mart",
-      "type": "candy"
+      "group": "candy"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4415%202.jpg?v=1711600193295",
@@ -189,7 +189,7 @@
       "title": "yakult",
       "color": "creme",
       "origin": "dainobu",
-      "type": "drink"
+      "group": "drink"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4393%202.jpg?v=1711599254941",
@@ -197,7 +197,7 @@
       "title": "walnut",
       "color": "brown",
       "origin": "trader joes",
-      "type": "seed"
+      "group": "seed"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/786b05cc-ad26-4823-a1b7-674cf64dcff4.IMG_5396.jpg?v=1711641718845",
@@ -205,7 +205,7 @@
       "title": "kimchi",
       "color": "orange",
       "origin": "dainobu",
-      "type": "dish"
+      "group": "dish"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4256%202.jpg?v=1711599252422",
@@ -213,7 +213,7 @@
       "title": "radish",
       "color": "pink",
       "origin": "cafe",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4279%202.jpg?v=1711599253306",
@@ -221,7 +221,7 @@
       "title": "garlic",
       "color": "purple",
       "origin": "trader joes",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4267%202.jpg?v=1711599252861",
@@ -229,7 +229,7 @@
       "title": "salad",
       "color": "multicolor",
       "origin": "homemade",
-      "type": "dish"
+      "group": "dish"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4319%202.jpg?v=1711599424009",
@@ -237,7 +237,7 @@
       "title": "flower fish cake",
       "color": "pink",
       "origin": "h mart",
-      "type": "seafood"
+      "group": "seafood"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4307%202.jpg?v=1711599423287",
@@ -245,7 +245,7 @@
       "title": "cheerios",
       "color": "creme",
       "origin": "costco",
-      "type": "grains"
+      "group": "grains"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4272%202.jpg?v=1711599422725",
@@ -253,7 +253,7 @@
       "title": "microgreen seed",
       "color": "green",
       "origin": "cafe",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
     "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/0a28da98-77dc-4d0c-853f-87bef4efa57d.IMG_5306.jpg?v=1711643809786",
@@ -261,7 +261,7 @@
     "title": "sourdough bread",
     "color": "creme",
     "origin": "trader joes",
-    "type": "grains"
+    "group": "grains"
 },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4240.jpg?v=1711599418984",
@@ -269,7 +269,7 @@
       "title": "salmon roe",
       "color": "orange",
       "origin": "dainobu",
-      "type": "seafood"
+      "group": "seafood"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4026.jpg?v=1711599418565",
@@ -277,7 +277,7 @@
       "title": "chia seeds",
       "color": "gray",
       "origin": "trader joes",
-      "type": "seed"
+      "group": "seed"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4359%202.jpg?v=1711599425736",
@@ -285,7 +285,7 @@
       "title": "coffee",
       "color": "brown",
       "origin": "trader joes",
-      "type": "drink"
+      "group": "drink"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4368%202.jpg?v=1711599426182",
@@ -293,7 +293,7 @@
       "title": "macaroni pasta",
       "color": "creme",
       "origin": "trader joes",
-      "type": "grains"
+      "group": "grains"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4327%202.jpg?v=1711599424962",
@@ -301,7 +301,7 @@
       "title": "blueberry",
       "color": "purple",
       "origin": "trader joes",
-      "type": "fruit"
+      "group": "fruit"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4216.jpg?v=1711599424587",
@@ -309,7 +309,7 @@
       "title": "peas",
       "color": "green",
       "origin": "h mart",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4248.jpg?v=1711599432984",
@@ -317,7 +317,7 @@
       "title": "sweet potato",
       "color": "orange",
       "origin": "morton williams",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/cbe98a04-a923-4da7-984e-335f8fb71a04.IMG_5089%202.jpg?v=1711635864778",
@@ -325,7 +325,7 @@
       "title": "cabbage",
       "color": "yellow",
       "origin": "dainobu",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4196.jpg?v=1711599431607",
@@ -333,7 +333,7 @@
       "title": "cha siu pork",
       "color": "red",
       "origin": "hay hay",
-      "type": "meat"
+      "group": "meat"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/c447f023-3e00-45af-aa4c-e9e9a9f06372.IMG_5301.jpg?v=1711654813522",
@@ -341,7 +341,7 @@
       "title": "sesame cashews",
       "color": "orange",
       "origin": "cvs",
-      "type": "seeds"
+      "group": "seeds"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5141.jpg?v=1711599436316",
@@ -349,7 +349,7 @@
       "title": "camellia flower",
       "color": "blue",
       "origin": "park",
-      "type": "flower"
+      "group": "flower"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5143.jpg?v=1711599437201",
@@ -357,7 +357,7 @@
       "title": "dragonfruit",
       "color": "pink",
       "origin": "trader joes",
-      "type": "fruit"
+      "group": "fruit"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_5071.jpg?v=1711599434820",
@@ -365,7 +365,7 @@
       "title": "jacaranda flower",
       "color": "purple",
       "origin": "park",
-      "type": "flower"
+      "group": "flower"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/4eac27d2-fbf6-40ae-94da-3765db5c3243.IMG_5098.jpg?v=1711602950204",
@@ -373,7 +373,7 @@
       "title": "yellow dragonfruit",
       "color": "yellow",
       "origin": "trader joes",
-      "type": "fruit"
+      "group": "fruit"
   },
   {
     "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/IMG_4232.jpg?v=1711599432065",
@@ -381,7 +381,7 @@
     "title": "cookie dough",
     "color": "creme",
     "origin": "costco",
-    "type": "candy"
+    "group": "candy"
 },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/3f9fc719-ba87-4ffe-a621-02f8909eacdc.IMG_5084%202.jpg?v=1711635461876",
@@ -389,7 +389,7 @@
       "title": "red perennial",
       "color": "red",
       "origin": "park",
-      "type": "flower"
+      "group": "flower"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/2800b6c5-9f29-454e-93d1-7159f4f80f24.IMG_4226%202.jpg?v=1711655931711",
@@ -397,7 +397,7 @@
       "title": "cucumber",
       "color": "green",
       "origin": "trader joes",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/3abf7f23-7a88-4524-a6b9-38e68a6c6b7b.IMG_4350.jpg?v=1711656081636",
@@ -405,7 +405,7 @@
       "title": "cod fish",
       "color": "white",
       "origin": "morton williams",
-      "type": "seafood"
+      "group": "seafood"
   },
   {
       "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/5911ccdd-3d46-4f88-91d3-c5f2e44e3821.IMG_4262.jpg?v=1711656340480",
@@ -413,7 +413,7 @@
       "title": "red chili pepper",
       "color": "red",
       "origin": "h mart",
-      "type": "vegetable"
+      "group": "vegetable"
   },
   {
     "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/da4127b1-1c37-4e1d-94ef-beb1461d3e6c.IMG_5100%202.jpg?v=1711661995190",
@@ -421,7 +421,7 @@
     "title": "squid",
     "color": "red",
     "origin": "dainobu",
-    "type": "seafood"
+    "group": "seafood"
 },
   {
     "link": "https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/7c86eef8-1d56-4b2e-8fb1-201c62fb55f8.IMG_5074%202.jpg?v=1711635348108",
@@ -429,6 +429,6 @@
     "title": "lavender",
     "color": "purple",
     "origin": "park",
-    "type": "flower"
+    "group": "flower"
 }
 ]

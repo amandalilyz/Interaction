@@ -45,10 +45,10 @@ function generatePage(data) {
             text.innerHTML = '';
 
             text.innerHTML = `
-            <span class="item-title">Title: ${item.title}</span>
-            <span class="item-color">Color: ${item.color}</span>
-            <span class="item-origin">Origin: ${item.origin}</span>
-            <span class="item-group">Group: ${item.group}</span>
+            <span class="item-title">title: ${item.title}</span>
+            <span class="item-color">color: ${item.color}</span>
+            <span class="item-origin">origin: ${item.origin}</span>
+            <span class="item-group">group: ${item.group}</span>
             <span class="close">&times;</span>
             `
             gridContainer.appendChild(text);
