@@ -160,3 +160,15 @@ body {
     color: rgb(255, 224, 122);
     cursor: pointer; /* Optional: Change cursor on hover */
 }
+
+@media only screen and (max-width: 600px) {
+    #grid-container {
+        grid-template-rows: auto; /* Allow rows to adjust dynamically */
+        display: flex;
+    flex-direction: column; /* Ensure modal content stacks vertically */
+    }
+
+    .grid-item {
+        height: 100vh; /* Set each row to be no more than 20vh height */
+    }
+}

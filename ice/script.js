@@ -78,24 +78,27 @@ function updateGridLayout(scrollY, scrollHeight) {
     let scrolledPercentage = scrollY / scrollHeight;
 
     // Define the steps based on scroll depth
-    let steps = [
-        { columns: 2, rows: 1 },
-        { columns: 3, rows: 2 },
-        { columns: 6, rows: 3 },
-        { columns: 9, rows: 6 }
-    ];
+    let steps;
+    if (window.innerWidth <= 600) {
+        // For mobile devices
+        steps = [
+            { columns: 1, rows: 2 },
+            { columns: 1, rows: 6 },
+            { columns: 1, rows: 18 },
+            { columns: 1, rows: 54 }
+        ];
+    } else {
+        // For desktop or larger screens
+        steps = [
+            { columns: 2, rows: 1 },
+            { columns: 3, rows: 2 },
+            { columns: 6, rows: 3 },
+            { columns: 9, rows: 6 }
+        ];
+    }
 
     // Determine the current step based on scrolled percentage
-    let stepIndex;
-    if (scrolledPercentage <= 0.25) {
-        stepIndex = 0;
-    } else if (scrolledPercentage <= 0.5) {
-        stepIndex = 1;
-    } else if (scrolledPercentage <= 0.75) {
-        stepIndex = 2;
-    } else {
-        stepIndex = 3;
-    }
+    let stepIndex = Math.floor(scrolledPercentage * (steps.length - 1));
 
     // Get the columns and rows for the current step
     let { columns, rows } = steps[stepIndex];
@@ -104,6 +107,15 @@ function updateGridLayout(scrollY, scrollHeight) {
     container.style.gridTemplateRows = `repeat(${rows}, ${100 / rows}vh)`;
     container.style.gridTemplateColumns = `repeat(${columns}, ${100 / columns}vw)`;
 }
+
+window.addEventListener('scroll', function() {
+    // Get the current scroll position
+    const scrollY = window.scrollY || window.pageYOffset;
+    
+    // Update the grid layout based on the scroll position
+    updateGridLayout(scrollY, virtualScrollHeight);
+});
+
 
 // Initialize virtual scroll variables
 let virtualScrollY = 0;
