@@ -126,3 +126,4 @@ document.getElementById('grid-container').addEventListener('wheel', function(e) 
 
 // Initial grid layout update
 updateGridLayout(virtualScrollY, virtualScrollHeight);
+
