@@ -139,3 +139,68 @@ document.getElementById('grid-container').addEventListener('wheel', function(e) 
 // Initial grid layout update
 updateGridLayout(virtualScrollY, virtualScrollHeight);
 
+
+
+// NEW CHANGES BELOW
+
+function generatePage(data) {
+    data.forEach((item, index) => { // Add index parameter to track the current index
+        const currentDataEl = document.createElement('div');
+        const text = document.getElementById('text');
+        currentDataEl.classList.add('grid-item');
+        currentDataEl.dataset.videolink = item.videolink;
+        currentDataEl.addEventListener('click', (event) => {
+            const modalContainer = document.getElementById('modal-container');
+            const gridContainer = document.getElementById('grid-container');
+            const modalContent = document.getElementById('modal-content');
+            const target = event.target;
+
+            const videoPlayer = document.createElement('video');
+            videoPlayer.setAttribute('src', item.link2);
+            videoPlayer.setAttribute('autoplay', 'true'); // Autoplay the video
+            videoPlayer.setAttribute('loop', 'true'); // Make the video loop
+
+            // Create the image elements
+            const image1 = document.createElement('img');
+            image1.setAttribute('src', item.link);
+            image1.classList.add(`image-${index}`); // Add dynamic class to the first image
+            
+            const image2 = document.createElement('img');
+            image2.setAttribute('src', target.dataset.link2);
+            image2.classList.add(`image-${index}`); // Add dynamic class to the second image
+
+            modalContent.innerHTML = ''; // Clear previous content
+            modalContent.appendChild(videoPlayer); // Append video player
+            modalContent.appendChild(image1); // Append first image
+            modalContent.appendChild(image2); // Append second image
+
+            modalContainer.style.display = 'block'; // Display modal
+            // text.style.display = "block";
+            text.innerHTML = '';
+
+            text.innerHTML = `
+            <span class="item-title">title: ${item.title}</span>
+            <span class="item-color">color: ${item.color}</span>
+            <span class="item-origin">origin: ${item.origin}</span>
+            <span class="item-group">group: ${item.group}</span>
+            <span class="close">&times;</span>
+            `
+            gridContainer.appendChild(text);
+            var close = document.querySelector('.close')
+            close.addEventListener("click", (event) => {
+            modalContainer.style = "none";
+            text.innerHTML = '';
+            })
+        });
+
+        const currentImage = document.createElement('img');
+        currentImage.setAttribute('src', item.link);
+        currentImage.classList.add(`image-${index}`); // Add dynamic class to the current image
+        currentDataEl.appendChild(currentImage);
+        gridContainer.appendChild(currentDataEl);
+
+    });
+}
+
+
+
