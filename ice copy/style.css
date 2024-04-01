@@ -152,3 +152,67 @@ body {
     top: 700px;
     font-family: Helvetica, sans-serif;
   }
+
+  .item-title:hover,
+.item-color:hover,
+.item-group:hover,
+.item-origin:hover {
+    color: rgb(255, 224, 122);
+    cursor: pointer; /* Optional: Change cursor on hover */
+}
+
+@media only screen and (max-width: 600px) {
+    #grid-container {
+        grid-template-rows: auto; /* Allow rows to adjust dynamically */
+        width: 100%; /* Set the width to 100% of the viewport width */
+        display: flex;
+        flex-direction: column; /* Ensure modal content stacks vertically */
+    }
+
+    .grid-item {
+        height: 100vh; /* Set each row to be no more than 20vh height */
+}
+
+#modal-content {
+    display: flex;
+    flex-direction: column; /* Ensure modal content stacks vertically */
+    max-height: 100vh; /* Set maximum height to the height of the viewport */
+    overflow: hidden; /* Hide any content that overflows the container */
+    align-items: center;
+    position: relative;
+    width: 100%; /* Set the width to 100% of the viewport width */
+    max-width: 100%; /* Ensure the modal container does not exceed the screen width */
+}
+
+#modal-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width to 100% of the viewport width */
+    height: 50%; /* Set the height to 100% of the viewport height */
+    cursor: pointer;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+#modal-content > div {
+    flex: 1; /* Each container takes up all available space */
+    display: flex; /* Nested flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    flex-direction: column; /* Ensure modal content stacks vertically */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+#modal-content video {
+    width: 100vw; /* Video fills up the whole width of the screen */
+    height: auto; /* Preserve aspect ratio */
+    align-items: center;
+    margin-top: -15vh;
+}
+
+#modal-content img {
+    width: 100vw; /* Each content occupies the full width of the container */
+    height: auto; /* Preserve aspect ratio */
+    margin: auto;
+}
+}
