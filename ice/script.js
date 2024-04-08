@@ -6,7 +6,6 @@ fetch("./data.json")
         document.addEventListener('DOMContentLoaded', function() {
             updateGridLayout(); // Update on initial load
         });
-        
     })
 
 const gridContainer = document.getElementById('grid-container');
