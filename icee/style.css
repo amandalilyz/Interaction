@@ -210,12 +210,11 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     padding: 10px; /* Adjust padding as needed */
     z-index: 1000; /* Ensure buttons appear above other content */
     display: flex; /* Use flexbox layout */
-    justify-content: space-between; /* Distribute space between buttons */
-    align-items: center; /* Align items vertically */
+    align-items: left; /* Align items vertically */
 }
 
 .fixed-button {

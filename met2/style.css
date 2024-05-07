@@ -1,0 +1,112 @@
+<link rel="stylesheet" href="https://use.typekit.net/wpn6cdg.css">
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+h1 {
+    animation: floatUpDown 3s ease infinite;
+}
+
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: translateY(0.1vw); /* Adjust translateY using viewport width */
+    }
+    50% {
+        transform: translateY(-0.1vw); /* Adjust translateY using viewport width */
+    }
+}
+
+.image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#image1 {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/fbc66e73-f7e2-499b-9a04-2361157a4a57.main-image.png?v=1713907914599");
+    background-size: 110%;
+}
+
+#image2 {
+    background-image: url("");
+    background-size: 100%;
+    background-position: bottom;
+}
+
+#woman2background1 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/5efd64fe-42e2-42a7-81cb-d97a9c5e0065.Screenshot%202024-04-30%20at%203.23.44%E2%80%AFPM.png?v=1714518897362");
+    background-size: 100%;
+    background-position: right bottom;
+}
+
+#woman2background2 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/5efd64fe-42e2-42a7-81cb-d97a9c5e0065.Screenshot%202024-04-30%20at%203.23.44%E2%80%AFPM.png?v=1714518897362");
+    background-size: 100%;
+
+}
+
+#woman2 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/dkslkdfslnkfss.png?v=1714518692089");
+    background-size: 100%;
+    background-size: 100%;
+
+}
+
+#image6 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Screenshot%202024-04-25%20at%205.18.06%E2%80%AFPM.png?v=1714080403561");
+    background-size: 110%;
+}
+
+.text-container {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-50%);
+}
+
+.text-container:hover .background-text {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.background-text {
+    font-family: "joly-display", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 0px; /* Adjust the value to move the paragraph up */
+    font-family: "input-sans", sans-serif; /* Apply the imported font */
+
+}

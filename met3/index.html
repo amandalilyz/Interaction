@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://use.typekit.net/wpn6cdg.css">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="content">
+            <h1 class="scroll-text"></h1>
+            <h1 class="scroll-text"></h1>
+        </div>
+
+        <section>
+            <div class="text-container" id="text1">
+                <h1 class="background-text">Women in Met</h1>
+            </div>
+            <p class="paragraph" id="w1met">
+                "Reclining Woman Smoking - Unknown 1870-1890"
+             </p>
+             <p class="paragraph" id="w1caption">
+                Reflecting on a past love
+             </p>
+
+            <div class="image" id="image1">
+                <div class="image" id="image1blur"></div>
+                <div class="image" id="woman2background2">
+                    <p class="paragraph" id="w2met">
+                        "Woman with Arms Crossed - Poland 1939" 
+                    </p>
+                    <div class="image" id="woman2">
+                        <p class="paragraph" id="w2caption">
+                            Sitting in quiet determination
+                        </p>
+                    </div>
+                    <div class="image" id="woman3background1"></div>
+                    <div class="image" id="woman3background2"></div>
+                    <div class="image" id="woman3background3"></div>
+                    <div class="image" id="woman3">
+                        <div class="image image-with-caption" id="woman3yellow">
+                            <p class="paragraph" id="w3y-cap1">
+                                "Woman with Arms Crossed - Poland 1939" 
+                            </p>
+                            <p class="paragraph" id="w3y-cap2">
+                                "htelrhfjkjdfhskdjbfdk" 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" id="woman4"></div>
+                <div class="image" id="woman5"></div>
+                <div class="image image-with-caption" id="woman6">
+                    <p class="paragraph" id="w6-cap1">
+                        "Women in The Met" 
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section>
+
+
+                <div class="lax.init();
+
+                lax.addDriver("scrollY", function () {
+                    return window.scrollY;
+                });
+            
+                lax.addElements("#image1", {
+                    scrollY: {
+                        scale: [
+                            [0, 1000],
+                            [CSSPairs.image1ScaleIn[currentFormat], CSSPairs.image1ScaleOut[currentFormat]]
+                        ],
+                    }
+                });image" id="woman2">
+            </div>
+          
+        </section>
+        <div style="height: 10000px"></div>
+        <script src="./script.js" async defer></script>   
+    </body>
+</html>

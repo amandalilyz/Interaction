@@ -1,7 +1,8 @@
 fetch("./data.json")
     .then(res => res.json())
     .then(data => {
-        generatePage(data)
+        generatePage(data),
+        importColorList(data)
     }).then(() => {
         document.addEventListener('DOMContentLoaded', function() {
             updateGridLayout(); // Update on initial load
@@ -10,61 +11,91 @@ fetch("./data.json")
 
 const gridContainer = document.getElementById('grid-container');
 
-function generatePage(data) {
-    data.forEach(item => {
-        const currentDataEl = document.createElement('div');
-        const text = document.getElementById('text');
-        currentDataEl.classList.add('grid-item');
-        currentDataEl.dataset.videolink = item.videolink;
-        currentDataEl.addEventListener('click', (event) => {
-            const modalContainer = document.getElementById('modal-container');
-            const gridContainer = document.getElementById('grid-container');
-            const modalContent = document.getElementById('modal-content');
-            const target = event.target;
+function importColorList(data){
+    const uniqueColors = new Set();
+    const list = document.getElementById("colorList");
+    
+    data.forEach(item => uniqueColors.add(item.color));
 
-            const videoPlayer = document.createElement('video');
-            videoPlayer.setAttribute('src', item.link2);
-            videoPlayer.setAttribute('autoplay', 'true'); // Autoplay the video
-            videoPlayer.setAttribute('loop', 'true'); // Make the video loop
+    uniqueColors.forEach(color => {
+        const colorListItem = document.createElement('li');
+        colorListItem.textContent = color;
+        list.appendChild(colorListItem)
 
-            // Create the image elements
-            const image1 = document.createElement('img');
-            image1.setAttribute('src', item.link);
+        colorListItem.addEventListener("click", function(){
+            const images = document.querySelectorAll(".grid-item");
             
-            const image2 = document.createElement('img');
-            image2.setAttribute('src', target.dataset.link2);
-
-            modalContent.innerHTML = ''; // Clear previous content
-            modalContent.appendChild(videoPlayer); // Append video player
-            modalContent.appendChild(image1); // Append first image
-            modalContent.appendChild(image2); // Append second image
-
-            modalContainer.style.display = 'block'; // Display modal
-            // text.style.display = "block";
-            text.innerHTML = '';
-
-            text.innerHTML = `
-            <span class="item-title">title: ${item.title}</span>
-            <span class="item-color">color: ${item.color}</span>
-            <span class="item-origin">origin: ${item.origin}</span>
-            <span class="item-group">group: ${item.group}</span>
-            <span class="close">&times;</span>
-            `
-            gridContainer.appendChild(text);
-            var close = document.querySelector('.close')
-            close.addEventListener("click", (event) => {
-            modalContainer.style = "none";
-            text.innerHTML = '';
+            images.forEach(img => {
+                img.style.display = "flex";
+                if (!img.classList.contains(color)){
+                    img.style.display = "none";
+                }
             })
-        });
 
-        const currentImage = document.createElement('img');
-        currentImage.setAttribute('src', item.link);
-        currentDataEl.appendChild(currentImage);
-        gridContainer.appendChild(currentDataEl);
-
-    });
+        })
+    })
 }
+
+//old generatePage 
+// function generatePage(data) {
+//     data.forEach(item => {
+//         const currentDataEl = document.createElement('div');
+//         const text = document.getElementById('text');
+//         currentDataEl.classList.add('grid-item');
+
+//         currentDataEl.dataset.videolink = item.videolink;
+
+
+//         //open modal function
+//         currentDataEl.addEventListener('click', (event) => {
+//             const modalContainer = document.getElementById('modal-container');
+//             const gridContainer = document.getElementById('grid-container');
+//             const modalContent = document.getElementById('modal-content');
+//             const target = event.target;
+
+//             const videoPlayer = document.createElement('video');
+//             videoPlayer.setAttribute('src', item.link2);
+//             videoPlayer.setAttribute('autoplay', 'true'); // Autoplay the video
+//             videoPlayer.setAttribute('loop', 'true'); // Make the video loop
+
+//             // Create the image elements
+//             const image1 = document.createElement('img');
+//             image1.setAttribute('src', item.link);
+            
+//             const image2 = document.createElement('img');
+//             image2.setAttribute('src', target.dataset.link2);
+
+//             modalContent.innerHTML = ''; // Clear previous content
+//             modalContent.appendChild(videoPlayer); // Append video player
+//             modalContent.appendChild(image1); // Append first image
+//             modalContent.appendChild(image2); // Append second image
+
+//             modalContainer.style.display = 'block'; // Display modal
+//             // text.style.display = "block";
+//             text.innerHTML = '';
+
+//             text.innerHTML = `
+//             <span class="item-title">title: ${item.title}</span>
+//             <span class="item-color">color: ${item.color}</span>
+//             <span class="item-origin">origin: ${item.origin}</span>
+//             <span class="item-group">group: ${item.group}</span>
+//             <span class="close">&times;</span>
+//             `
+//             gridContainer.appendChild(text);
+//             var close = document.querySelector('.close')
+//             close.addEventListener("click", (event) => {
+//             modalContainer.style = "none";
+//             text.innerHTML = '';
+//             })
+//         });
+
+//         const currentImage = document.createElement('img');
+//         currentImage.setAttribute('src', item.link);
+//         currentDataEl.appendChild(currentImage);
+//         gridContainer.appendChild(currentDataEl);
+
+//     });
+// }
 
 
 // First, ensure the gridContainer has a fixed size and overflow is hidden to prevent actual scrolling
@@ -148,7 +179,11 @@ function generatePage(data) {
         const currentDataEl = document.createElement('div');
         const text = document.getElementById('text');
         currentDataEl.classList.add('grid-item');
+        currentDataEl.classList.add(item.color);
+
         currentDataEl.dataset.videolink = item.videolink;
+
+
         currentDataEl.addEventListener('click', (event) => {
             const modalContainer = document.getElementById('modal-container');
             const gridContainer = document.getElementById('grid-container');
