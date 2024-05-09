@@ -24,6 +24,65 @@
                Roaming as a ghost
 
 
+               lax.addElements('#woman3background1', {
+                scrollY: {
+                  translateY: [
+                    [4000, 5200, 6500, 7000], // Current scrollY range
+                    [window.innerHeight, 0, 0, window.innerHeight], // Move from 0px offset to negative screen height (top of the screen)
+                    ["elInY","elOutY"], // Scroll position range from when the element is at the bottom to when it is at the top
+                  ],
+                }
+              });
+            lax.addElements("#woman3background2", {
+                scrollY: {
+                    translateY: [
+                        [4600, 5500],
+                        ["elInY", "elCenterY"]
+                    ],
+                },
+             
+            });
+        
+            lax.addElements("#woman3background3", {
+                scrollY: {
+                    translateY: [
+                        [4800, 5500],
+                        [window.innerHeight, 0, 0, window.innerHeight], // Move from 0px offset to negative screen height (top of the screen)
+                        ["elInY","elOutY"], // Scroll position range from when the element is at the bottom to when it is at the top
+                      ], 
+                },
+             
+            });
+        
+            lax.addElements("#woman3", {
+                scrollY: {
+                    translateY: [
+                        [5600, 5800, 6500, 7000], // Current scrollY range
+                        [window.innerHeight, 0, 0, window.innerHeight], // Move from 0px offset to negative screen height (top of the screen)
+                        ["elInY","elOutY"], // Scroll position range from when the element is at the bottom to when it is at the top
+                      ],
+                },
+             
+            });
+        
+            lax.addElements('#w3met', {
+                scrollY: {
+                    opacity: [
+                        [4000, 4200, 4250],
+                        [1, 1, 0]
+                    ]
+                }
+            })
+        
+            lax.addElements('#w3y-cap2', {
+                scrollY: {
+                    opacity: [
+                        [4300, 4400 ,5000, 5050],
+                        [0, 1, 1, 0]
+                    ]
+                }
+            })
+
 
     
             

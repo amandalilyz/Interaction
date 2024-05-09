@@ -50,7 +50,7 @@ window.onload = function () {
     lax.addElements("#image1", {
         scrollY: {
             scale: [
-                [0, 1000],
+                [0, 2000],
                 [CSSPairs.image1ScaleIn[currentFormat], CSSPairs.image1ScaleOut[currentFormat]]
             ],
         }
@@ -77,7 +77,7 @@ window.onload = function () {
     lax.addElements("#w1met", {
         scrollY: {
             opacity: [
-                [450, 500, 750, 800],
+                [800, 850, 1250, 1300],
                 [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
         },
@@ -86,86 +86,255 @@ window.onload = function () {
     lax.addElements("#w1caption", {
         scrollY: {
             opacity: [
-                [850, 900, 1150, 1200],
+                [1495, 1500, 1700, 1705],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption2", {
+        scrollY: {
+            opacity: [
+                [1695, 1700, 1900, 1905],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption3", {
+        scrollY: {
+            opacity: [
+                [1895, 1900, 2100, 2105],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption4", {
+        scrollY: {
+            opacity: [
+                [2095, 2100, 2495, 2500],
                 [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
         },
     });
     
+    lax.addElements("#w1caption5", {
+        scrollY: {
+            opacity: [
+                [2495, 2500, 2700, 2705],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
 
+    lax.addElements("#w1caption6", {
+        scrollY: {
+            opacity: [
+                [2695, 2700, 2900, 2905],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption7", {
+        scrollY: {
+            opacity: [
+                [2895, 2900, 3100, 3105],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption8", {
+        scrollY: {
+            opacity: [
+                [3095, 3100, 3395, 3400],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption9", {
+        scrollY: {
+            opacity: [
+                [3395, 3400, 3600, 3605],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption10", {
+        scrollY: {
+            opacity: [
+                [3595, 3600, 3800, 3805],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
+    lax.addElements("#w1caption11", {
+        scrollY: {
+            opacity: [
+                [3795, 3800, 4000, 4300],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
     lax.addElements("#woman2background2", {
         scrollY: {
             translateX: [
-                [1000, 2000],
+                [4000, 5000],
                 ["elInX", "elCenterX"]
             ],
-            translateY: [
-                [2800, 3900],
-                ["elCenterX", "elOutY"]
-                 ],
+    
         },
         
     });
 
-
     lax.addElements("#woman2", {
         scrollY: {
             translateX: [
-                [1300, 2300],
+                [4500, 5200],
                 ["elInX", "elCenterX"]
             ],
         translateY: [
-            [2800, 3100],
+            [7900, 8900],
             ["elCenterX", "elOutY"]
              ],
          },
     });
 
+
     lax.addElements("#w2met", {
         scrollY: {
             opacity: [
-                [1000, 1050, 2150, 2350],
+                [5100, 5150, 5500, 5650],
                 [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
         },
     });
 
-    lax.addElements("#w2caption", {
+    lax.addElements("#w2caption1", {
         scrollY: {
             opacity: [
-                [2300, 2350, 2550, 2600],
+                [5800, 5805, 6005, 6010],
                 [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
         },
     })
 
-    lax.addElements("#woman3background1", {
+    lax.addElements("#w2caption2", {
         scrollY: {
-            translateY: [
-                [5000, 5800],
-                ["elInY", "elCenterY"]
+            opacity: [
+                [6005, 6010, 6210, 6215],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
-            
         },
-     
-    });
+    })
+
+    lax.addElements("#w2caption3", {
+        scrollY: {
+            opacity: [
+                [6200, 6205, 6400, 6405],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+    lax.addElements("#w2caption4", {
+        scrollY: {
+            opacity: [
+                [6395, 6400, 6600, 6605],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+    lax.addElements("#w2caption5", {
+        scrollY: {
+            opacity: [
+                [6600, 6605, 6800, 6805],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+    lax.addElements("#w2caption6", {
+        scrollY: {
+            opacity: [
+                [6800, 6805, 7000, 7005],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+    lax.addElements("#w2caption7", {
+        scrollY: {
+            opacity: [
+                [7000, 7005, 7200, 7205],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+    lax.addElements("#w2caption8", {
+        scrollY: {
+            opacity: [
+                [7200, 7205, 7400, 7405],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+    lax.addElements("#w2caption9", {
+        scrollY: {
+            opacity: [
+                [7400, 7405, 7600, 7605],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+    lax.addElements("#w2caption10", {
+        scrollY: {
+            opacity: [
+                [7600, 7605, 7800, 7805],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    })
+
+
+    lax.addElements('#woman3background1', {
+        scrollY: {
+          translateY: [
+            [7950, 8600, 11000, 12000], // Current scrollY range
+
+            [window.innerHeight, 0, 0, window.innerHeight], // Move from 0px offset to negative screen height (top of the screen)
+            ["elInY","elOutY"], // Scroll position range from when the element is at the bottom to when it is at the top
+          ],
+        }
+      });
 
     lax.addElements("#woman3background2", {
         scrollY: {
             translateY: [
-                [4200, 5000],
-                ["elInY", "elCenterY"]
+                [8200, 8800, 11000, 12000],
+                ["elInY", "elCenterY", "elCenterY", "elOutY"],
             ],
-        },
+            
+        }
      
     });
 
     lax.addElements("#woman3background3", {
         scrollY: {
             translateY: [
-                [4000, 4200],
-                ["elInY", "elCenterY"]
-            ],
+                [8500, 9000, 11000, 12000],
+                [window.innerHeight, 0, 0, window.innerHeight], // Move from 0px offset to negative screen height (top of the screen)
+                ["elInY","elOutY"], // Scroll position range from when the element is at the bottom to when it is at the top
+              ], 
         },
      
     });
@@ -173,70 +342,300 @@ window.onload = function () {
     lax.addElements("#woman3", {
         scrollY: {
             translateY: [
-                [4600, 5200],
-                ["elInY", "elCenterY"]
-            ],
-            opacity: [
-                [4600, 5000, 5500, 6000],
-                [1, 1, 1, 0] // Opacity transitions from 0 to 1
-            ],
+                [8700, 9200, 11000, 12000], // Current scrollY range
+                [window.innerHeight, 0, 0, window.innerHeight], // Move from 0px offset to negative screen height (top of the screen)
+                ["elInY","elOutY"], // Scroll position range from when the element is at the bottom to when it is at the top
+              ],
         },
      
     });
 
-    lax.addElements('#w3y-cap1', {
+    lax.addElements('#w3met', {
         scrollY: {
             opacity: [
-                [4000, 4200, 4250],
-                [1, 1, 0]
-            ]
-        }
-    })
-
-    lax.addElements('#w3y-cap2', {
-        scrollY: {
-            opacity: [
-                [4300, 4400 ,5000, 5050],
+                [9100, 9300, 9700, 9900],
                 [0, 1, 1, 0]
             ]
         }
     })
 
+    lax.addElements('#w3caption1', {
+        scrollY: {
+            opacity: [
+                [10000, 10005 ,10100, 10105],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w3caption2', {
+        scrollY: {
+            opacity: [
+                [10100, 10105 ,10205, 10210],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w3caption3', {
+        scrollY: {
+            opacity: [
+                [10200, 10205 ,10300, 10305],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w3caption4', {
+        scrollY: {
+            opacity: [
+                [10300, 10305 ,10400, 10405],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+
+    lax.addElements('#w3caption5', {
+        scrollY: {
+            opacity: [
+                [10400, 10405 ,10500, 10505],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+
+    lax.addElements('#w3caption6', {
+        scrollY: {
+            opacity: [
+                [10500, 10505 ,10600, 10605],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+
+    lax.addElements('#w3caption7', {
+        scrollY: {
+            opacity: [
+                [10600, 10605 ,10700, 10705],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+
+    lax.addElements('#w3caption8', {
+        scrollY: {
+            opacity: [
+                [10700, 10705 ,10800, 10805],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+
+    lax.addElements('#w3caption9', {
+        scrollY: {
+            opacity: [
+                [10800, 10805 ,10900, 10905],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+
+    lax.addElements('#w3caption10', {
+        scrollY: {
+            opacity: [
+                [10900, 10905 ,11000, 11005],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+    lax.addElements('#w3caption11', {
+        scrollY: {
+            opacity: [
+                [11000, 11005 ,11100, 11100],
+                [0, 1, 1, 0]
+            ]
+        }
+    });
+
     lax.addElements("#woman4", {
         scrollY: {
             scale: [
-                [6000, 7300],
-                [4, 1]
+                [12000, 16000],
+                [5, 1]
             ],
             opacity: [
-                [0, 3800, 3801, 6900, 7300],
+                [0, 10000, 10001, 15800, 16000],
                 [0, 0, 1, 1, 0]
             ],
             translateY: [
-                [6000, 7000],
-                [550, 0]
-            ]
+                [12000, 16000],
+                [950, 0]
+            ],
+            translateX: [
+                [12000, 16000],
+                [-90, 0]
+            ],
         },
      
     });
 
+    lax.addElements('#w4met', {
+        scrollY: {
+            opacity: [
+                [11000, 11001, 12100, 12200],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption1', {
+        scrollY: {
+            opacity: [
+                [12400, 12405, 12500, 12505],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w4caption2', {
+        scrollY: {
+            opacity: [
+                [12500, 12505, 12600, 12605],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w4caption3', {
+        scrollY: {
+            opacity: [
+                [12600, 12605, 12700, 12705],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption4', {
+        scrollY: {
+            opacity: [
+                [12700, 12705, 12800, 12805],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption5', {
+        scrollY: {
+            opacity: [
+                [12800, 12805, 12900, 12905],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption6', {
+        scrollY: {
+            opacity: [
+                [12900, 12905, 13000, 13005],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w4caption7', {
+        scrollY: {
+            opacity: [
+                [13000, 13005, 13100, 13105],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption8', {
+        scrollY: {
+            opacity: [
+                [13100, 13105, 13200, 13205],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption9', {
+        scrollY: {
+            opacity: [
+                [13200, 13205, 13300, 13305],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption9', {
+        scrollY: {
+            opacity: [
+                [13300, 13305, 13400, 13405],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+    lax.addElements('#w4caption10', {
+        scrollY: {
+            opacity: [
+                [13400, 13405, 13500, 13505],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w4caption11', {
+        scrollY: {
+            opacity: [
+                [13500, 13505, 13600, 13605],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w4caption12', {
+        scrollY: {
+            opacity: [
+                [13600, 13605, 13700, 13705],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w4caption13', {
+        scrollY: {
+            opacity: [
+                [13700, 17505, 13800, 13805],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w4caption14', {
+        scrollY: {
+            opacity: [
+                [13800, 13805, 13900, 13905],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
     lax.addElements("#woman5", {
         scrollY: {
             scale: [
-                [7000, 8000],
+                [15800, 18000],
                 [14, 1]
             ],
             opacity: [
-                [0, 6800, 6801, 7980, 8200],
+                [0, 15800, 15801, 19000, 19100],
                 [0, 0, 1, 1, 0]
             ],
             translateY: [
-                [7000, 8000],
+                [16000, 18000],
                 [60, 0]
             ]
         },
      
     });
+
+    [0, 10000, 10001, 15900, 16000],
+
 
     lax.addElements("#woman6", {
         scrollY: {
@@ -270,83 +669,3 @@ window.onload = function () {
     })
 
 }
-// window.addEventListener('scroll', function() {
-//     // Calculate the scroll position
-//     let scrollY = window.scrollY;
-    
-//     // Handle the animation of image1
-//     let image1 = document.getElementById('image1');
-    
-//     // Total scroll distance over which the scaling will happen
-//     let maxScroll = 2700; // Adjust this value based on the height of your page
-    
-//     // Calculate the scale based on scrollY
-//     // The image starts at a scale of 4 (400% zoom) and zooms out to a scale of 1 (100% zoom)
-//     // Increase the multiplier from 3 to a higher value (e.g. 4 or 5) to speed up the zoom-out effect
-//     let zoomOutRate = 10; // Adjust this value for a faster zoom-out rate
-//     let scale = 4 - (zoomOutRate * scrollY / maxScroll);
-    
-//     // Ensure scale doesn't go below 1
-//     if (scale < 1) {
-//         scale = 1;
-//     }
-    
-//     // Apply the scale transformation to image1
-//     image1.style.transform = `scale(${scale})`;
-    
-// // Check if scrollY is greater than or equal to 400
-//     let woman2background2 = document.getElementById('woman2background2');
-
-//     if (scrollY >= 400) {
-//         // Calculate the range of motion for woman2background2
-//         let scrollOffset4 = ((scrollY - 400) / (maxScroll - 400)) * window.innerWidth;
-        
-//         // Apply the translation transformation to woman2background2
-//         // Move from left to right by using a positive value for scrollOffset4
-//         woman2background2.style.transform = `translateX(${scrollOffset4}px)`;
-        
-//         // Make sure woman2background2 is visible
-//         woman2background2.style.display = 'block';
-//     } else {
-//         // Hide woman2background2 if scrollY is less than 400
-//         woman2background2.style.display = 'none';
-// }
-
-// if (scrollY >= 2700) {
-//     // Calculate the zoom-out scale for woman2background2
-//     let zoomOutRate = 0.0005; // Adjust this value for a smoother zoom-out rate
-    
-//     // Calculate the scale starting from 1 and zooming out based on how far past 2700px the user scrolls
-//     let scale = 1 - zoomOutRate * (scrollY - 2700);
-    
-//     // Ensure scale doesn't go below a minimum limit, e.g., 0.5
-//     if (scale < 0.5) {
-//         scale = 0.5;
-//     }
-    
-//     // Apply the scale transformation to woman2background2
-//     // Set the transition property for smooth scaling
-//     woman2background2.style.transition = "transform 0.3s ease-out";
-
-//     // Calculate the translation for centering the image
-//     // By default, the element is centered, so no horizontal translation is needed during zoom out
-//     // Simply apply the scale transformation while keeping the X translation as zero
-//     woman2background2.style.transform = `scale(${scale})`;
-
-//     // Ensure the image remains visible
-//     woman2background2.style.display = 'block';
-// }
-
-// let woman2 = document.getElementById('woman2');
-
-// if (scrollY >= 600) {
-//     let scrollOffset4 = ((scrollY - 400) / (maxScroll - 400)) * window.innerWidth;
-    
-//     woman2.style.transform = `translateX(${scrollOffset4}px)`;
-    
-//     woman2.style.display = 'block';
-// } else {
-//     woman2.style.display = 'none';
-    
-// }
-// });

@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 section {
     position: relative;
     height: 100vh;
@@ -21,6 +16,22 @@ h1 {
         transform: translateY(-0.1vw); /* Adjust translateY using viewport width */
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .p {
+        font-family: "freight-big-pro", serif;
+        font-weight: 400;
+        font-style: italic;
+        left: 0%;
+        top: 20%;
+        align-items: center;
+        font-size: 10px;
+        position: fixed;
+        color: white;
+        z-index: 5;
+    }
+} 
 
 .image {
     position: fixed;
@@ -47,7 +58,7 @@ h1 {
 }
 
 #image1blur {
-    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/full%20pixel.png?v=1715051088318");
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/95ad7148-6cf1-4582-b55b-430fcd6ddbb6.full%20pixel.jpg?v=1715148596046");
     background-size: 140%;
     z-index: 4;
 
@@ -65,14 +76,14 @@ h1 {
     background-position: center;
     position: absolute;
     top: 0;
-    z-index: 6;
+    z-index: 2;
     transform-origin: center; /* Ensure transformations happen from the left center */
 }
 
 #woman2 {
     background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/dkslkdfslnkfss.png?v=1714518692089");
     background-size: 100%;
-    z-index: 4;
+    z-index: 5;
 
 }
 
@@ -81,9 +92,10 @@ h1 {
     background-size: 100%;
     background-position: center;
     position: absolute;
+    bottom: -100;
     top: 0;
-    z-index: 6;
-    transform-origin: center; /* Ensure transformations happen from the left center */
+    z-index: 7;
+    transform-origin: center; 
 }
 
 #woman3background2 {
@@ -92,7 +104,7 @@ h1 {
     background-position: center;
     position: absolute;
     top: 0;
-    z-index: 6;
+    z-index: 8;
     transform-origin: center; /* Ensure transformations happen from the left center */
 }
 
@@ -102,20 +114,22 @@ h1 {
     background-position: center;
     position: absolute;
     top: 0;
-    z-index: 6;
+    z-index: 9;
     transform-origin: center; /* Ensure transformations happen from the left center */
 }
 
 #woman3 {
     background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM%203.png?v=1715090763297");
     background-size: 100%;
-    z-index: 7;
+    z-index: 9;
+    left: -4%;
+    top: -4%;
 }
 
 #woman3yellow {
     background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM%204.png?v=1715090765891");
     background-size: 100%;
-    z-index: 7;
+    z-index: 10;
 }
 
 #woman4 {
@@ -124,20 +138,21 @@ h1 {
     background-position: center;
     position: absolute;
     top: 0;
-    z-index: 4;
+    z-index: 1;
     transform-origin: center; /* Ensure transformations happen from the left center */
 }
 
+
 #woman5 {
-    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Screenshot%202024-05-07%20at%2010.49.04%E2%80%AFAM.png?v=1715093542961");
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/n.png?v=1715221408032");
     background-size: 100%;
-    z-index: 3;
+    z-index: 1;
 }
 
 #woman6 {
     background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/adcdb440-b920-4262-84cc-29a3c4fed8d8.Screenshot%202024-05-07%20at%2010.54.54%E2%80%AFAM.png?v=1715093923924");
     background-size: 100%;
-    z-index: 2;
+    z-index: 1;
 }
 
 #image6 {
@@ -146,31 +161,45 @@ h1 {
 }
 
 .paragraph {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    font-style: italic;
     text-align: center;
-    color: white;
+    color: rgb(255, 243, 201);
     margin-left: 50px;
     margin-right: 50px;
     z-index: 6;
 }
 
-#w1met {
+#text1 {
     font-family: "freight-big-pro", serif;
     font-weight: 400;
     font-style: italic;
     left: 0%;
-    top: 20%;
+    top: 50%;
     align-items: center;
     font-size: 100px;
     position: fixed;
-    color: white;
+    color: rgb(255, 243, 201);
+    z-index: 5;
+}
+#w1met {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 0%;
+    top: 22%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
     z-index: 5;
 }
 
 #w2met {
-    font-family: "freight-big-pro", serif;
+    font-family: "helvetica", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     left: 0%;
     top: 20%;
     padding-left: 15%;
@@ -178,15 +207,186 @@ h1 {
     align-items: center;
     font-size: 100px;
     position: fixed;
-    color: white;
+    color: rgb(255, 243, 201);
     z-index: 4;
 }
 
+#w3met {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 0%;
+    top: 22%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
+    z-index: 7;
+}
+
+#w4met {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 0%;
+    top: 22%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
+    z-index: 7;
+}
+
 #w1caption {
-    font-family: "freight-big-pro", serif;
+    font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 20%;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption2 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption3 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption4 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption5 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption6 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption7 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption8 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption9 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption10 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w1caption11 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+
+
+#w2caption1 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -195,23 +395,424 @@ h1 {
     z-index: 5;
 }
 
-#w6-cap1 {
-font-family: "freight-big-pro", serif;
-font-weight: 400;
-font-style: italic;
-left: 10%;
-top: 20%;
-align-items: center;
-font-size: 150px;
-position: fixed;
-color: white;
-z-index: 5; 
+#w2caption2 {
+  font-family: "freight-big-pro", serif;
+        font-weight: 400;
+        font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
 }
 
+#w2caption3 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
 
+#w2caption4 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
 
-#w2caption {
-    font-family: "freight-big-pro", serif;
+#w2caption5 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w2caption6 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w2caption7 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w2caption8 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w2caption9 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w2caption10 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption1 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption2 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption3 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption4 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption5 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption6 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption7 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption8 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption9 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption10 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w3caption11 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w4caption1 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption2 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption3 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption4 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption5 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption6 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption7 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 10;
+}
+#w4caption8 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption9 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption10 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption11 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption12 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption13 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w4caption14 {
+    font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
     left: 13%;
@@ -224,8 +825,10 @@ z-index: 5;
 }
 
 
-
 .text-container {
+    font-family: "freight-big-pro", serif;
+        font-weight: 400;
+        font-style: italic;
     position: fixed;
     top: 50%;
     left: 0;
@@ -238,14 +841,13 @@ z-index: 5;
     transform: translateY(-50%);
 }
 
-
 .background-text {
     font-family: "freight-big-pro", serif;
     font-weight: 400;
-    font-style: normal;
-    margin-top: -150px; /* Adjust the value to move the paragraph up */
+    font-style: italic;
+    margin-top: -190px; /* Adjust the value to move the paragraph up */
     align-items: center;
-    font-size: 200px;
-    color: white;
+    font-size: 250px;
+    color: rgb(237, 247, 255);
     transition: all 0.3s ease;
 }
