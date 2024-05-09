@@ -83,7 +83,7 @@ window.onload = function () {
         },
     });
 
-    lax.addElements("#w1caption", {
+    lax.addElements("#w1caption1", {
         scrollY: {
             opacity: [
                 [1495, 1500, 1700, 1705],
@@ -176,11 +176,21 @@ window.onload = function () {
     lax.addElements("#w1caption11", {
         scrollY: {
             opacity: [
-                [3795, 3800, 4000, 4300],
+                [3795, 3800, 4000, 4005],
                 [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
         },
     });
+
+    lax.addElements("#w1caption12", {
+        scrollY: {
+            opacity: [
+                [4000, 4005, 4200, 4300],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+
     lax.addElements("#woman2background2", {
         scrollY: {
             translateX: [
@@ -209,7 +219,7 @@ window.onload = function () {
     lax.addElements("#w2met", {
         scrollY: {
             opacity: [
-                [5100, 5150, 5500, 5650],
+                [4800, 4850, 5500, 5650],
                 [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
         },
@@ -306,7 +316,7 @@ window.onload = function () {
     })
 
 
-    lax.addElements('#woman3background1', {
+    lax.addElements("#woman3background1", {
         scrollY: {
           translateY: [
             [7950, 8600, 11000, 12000], // Current scrollY range
@@ -464,7 +474,7 @@ window.onload = function () {
                 [5, 1]
             ],
             opacity: [
-                [0, 10000, 10001, 15800, 16000],
+                [0, 10000, 10001, 15700, 16000],
                 [0, 0, 1, 1, 0]
             ],
             translateY: [
@@ -634,38 +644,304 @@ window.onload = function () {
      
     });
 
-    [0, 10000, 10001, 15900, 16000],
-
-
-    lax.addElements("#woman6", {
+    lax.addElements("#w5met", {
         scrollY: {
-            scale: [
-                [7900, 8700],
-                [6, 1]
-            ],
             opacity: [
-                [0, 7800, 7801],
-                [0, 0, 1]
+                [17000, 17100, 17400, 17500],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
             ],
-            translateY: [
-                [8000, 8600],
-                [200, 0]
-            ],
-            translateX: [
-                [8000, 8600],
-                [-500, 0]
-            ]
         },
-     
     });
 
-    lax.addElements('#w6-cap1', {
+    lax.addElements('#w5caption1', {
         scrollY: {
             opacity: [
-                [8650, 8800],
-                [0, 1]
+                [17800, 17805, 17900, 17905],
+                [0, 1, 1, 0]
             ]
         }
     })
 
+    lax.addElements('#w5caption2', {
+        scrollY: {
+            opacity: [
+                [17900, 17905, 18000, 18005],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption3', {
+        scrollY: {
+            opacity: [
+                [18000, 18005, 18100, 18105],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption4', {
+        scrollY: {
+            opacity: [
+                [18100, 18105, 18200, 18205],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption5', {
+        scrollY: {
+            opacity: [
+                [18200, 18205, 18300, 18305],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption6', {
+        scrollY: {
+            opacity: [
+                [18300, 18305, 18400, 18405],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption7', {
+        scrollY: {
+            opacity: [
+                [18400, 18405, 18500, 18505],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption8', {
+        scrollY: {
+            opacity: [
+                [18500, 18505, 18600, 18605],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption9', {
+        scrollY: {
+            opacity: [
+                [18600, 18605, 18700, 18705],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption10', {
+        scrollY: {
+            opacity: [
+                [18700, 18705, 18800, 18805],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption11', {
+        scrollY: {
+            opacity: [
+                [18800, 18805, 18900, 18905],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w5caption12', {
+        scrollY: {
+            opacity: [
+                [18900, 18905, 19000, 19005],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+   
+
+    lax.addElements("#woman6", {
+        scrollY: {
+            scale: [
+                [19000, 21500],
+                [6, 1]
+            ],
+            opacity: [
+                [0, 18900, 19000],
+                [0, 0, 1]
+            ],
+            translateY: [
+                [19000, 21500, 21500, 22000],
+                [200, 0, 0, -window.innerHeight]
+            ],
+            translateX: [
+                [19000, 21500],
+                [-1200, 0]
+            ]
+               
+            
+        },
+     
+    });
+    lax.addElements("#w6met", {
+        scrollY: {
+            opacity: [
+                [19700, 19800, 20200, 20300],
+                [0, 1, 1, 0] // Opacity transitions from 0 to 1
+            ],
+        },
+    });
+    lax.addElements('#w6caption1', {
+        scrollY: {
+            opacity: [
+                [20400, 20405, 20500, 20505],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption2', {
+        scrollY: {
+            opacity: [
+                [20500, 20505, 20600, 20605],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption3', {
+        scrollY: {
+            opacity: [
+                [20600, 20605, 20700, 20705],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption4', {
+        scrollY: {
+            opacity: [
+                [20700, 20705, 20800, 20805],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption5', {
+        scrollY: {
+            opacity: [
+                [20800, 20805, 20900, 20905],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption6', {
+        scrollY: {
+            opacity: [
+                [20900, 20905, 21000, 21005],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption7', {
+        scrollY: {
+            opacity: [
+                [21000, 21005, 21100, 21105],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption8', {
+        scrollY: {
+            opacity: [
+                [21100, 21105, 21200, 21205],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption9', {
+        scrollY: {
+            opacity: [
+                [21200, 21205, 21300, 21305],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption10', {
+        scrollY: {
+            opacity: [
+                [21300, 21305, 21400, 21405],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption11', {
+        scrollY: {
+            opacity: [
+                [21400, 21405, 21500, 21505],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption12', {
+        scrollY: {
+            opacity: [
+                [21500, 21505, 21600, 21605],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption13', {
+        scrollY: {
+            opacity: [
+                [21600, 21605, 21700, 21705],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption14', {
+        scrollY: {
+            opacity: [
+                [21700, 21705, 21800, 21805],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+    lax.addElements('#w6caption15', {
+        scrollY: {
+            opacity: [
+                [21800, 21805, 21900, 21905],
+                [0, 1, 1, 0]
+            ]
+        }
+    })
+
+
+    lax.addElements("#lastimage", {
+        scrollY: {
+            scale: [
+                [22000, 23000],
+                [1, 3.5]
+            ],
+            translateY: [
+                [21500, 22000],
+                [window.innerHeight, 0]
+            ],
+        },
+    });
+    lax.addElements("#lastblur", {
+        scrollY: {
+            scale: [
+                [22000, 23000],
+                [0, 1]
+            ],
+            translateY: [
+                [21500, 22000],
+                [window.innerHeight, 0]
+            ],
+            opacity: [
+                [0, 22500, 23000],
+                [0, 0, 1]
+            ],
+        },
+    });
+
+    lax.addElements("#lasttext", {
+        scrollY: {
+            opacity: [
+                [22500, 23000],
+                [0, 1]                // Opacity: 1 (100%) to 0 (0%)
+            ],
+        }
+    });
 }
+
+

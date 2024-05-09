@@ -61,7 +61,29 @@ h1 {
     background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/95ad7148-6cf1-4582-b55b-430fcd6ddbb6.full%20pixel.jpg?v=1715148596046");
     background-size: 140%;
     z-index: 4;
+}
 
+#lastimage {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/fbc66e73-f7e2-499b-9a04-2361157a4a57.main-image.png?v=1713907914599");
+    background-size: 100%;
+}
+
+#lasttext {
+        font-family: "freight-big-pro", serif;
+        font-weight: 400;
+        font-style: italic;
+        margin-top: -190px; /* Adjust the value to move the paragraph up */
+        align-items: center;
+        font-size: 250px;
+        z-index: 7;
+        color: rgb(237, 247, 255);
+        transition: all 0.3;
+} 
+
+#lastblur {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/95ad7148-6cf1-4582-b55b-430fcd6ddbb6.full%20pixel.jpg?v=1715148596046");
+    background-size: 140%;
+    z-index: 4;
 }
 
 #image2 {
@@ -76,7 +98,7 @@ h1 {
     background-position: center;
     position: absolute;
     top: 0;
-    z-index: 2;
+    z-index: 1;
     transform-origin: center; /* Ensure transformations happen from the left center */
 }
 
@@ -152,7 +174,7 @@ h1 {
 #woman6 {
     background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/adcdb440-b920-4262-84cc-29a3c4fed8d8.Screenshot%202024-05-07%20at%2010.54.54%E2%80%AFAM.png?v=1715093923924");
     background-size: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 #image6 {
@@ -215,7 +237,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    left: 0%;
+    left: 6%;
     top: 22%;
     align-items: center;
     font-size: 100px;
@@ -228,6 +250,19 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: normal;
+    left: 5%;
+    top: 28%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
+    z-index: 7;
+}
+
+#w5met {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     left: 0%;
     top: 22%;
     align-items: center;
@@ -237,12 +272,25 @@ h1 {
     z-index: 7;
 }
 
-#w1caption {
+#w6met {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 0%;
+    top: 27%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
+    z-index: 7;
+}
+
+#w1caption1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 15%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -254,8 +302,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 15%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -267,8 +315,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 15%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -280,8 +328,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 17%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -293,8 +341,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 17%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -306,8 +354,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 17%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -319,8 +367,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 17%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -332,8 +380,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 22%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -345,8 +393,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 22%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -358,8 +406,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 22%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -371,8 +419,20 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 12%;
-    top: 20%;
+    left: 18%;
+    top: 30%;
+    align-items: center;
+    font-size: 80px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+#w1caption12 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 18%;
+    top: 30%;
     align-items: center;
     font-size: 80px;
     position: fixed;
@@ -386,7 +446,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 5%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -396,10 +456,10 @@ h1 {
 }
 
 #w2caption2 {
-  font-family: "freight-big-pro", serif;
-        font-weight: 400;
-        font-style: italic;
-    left: 13%;
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 5%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -412,8 +472,8 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
     top: 30%;
+    left: 5%;
     align-items: center;
     font-size: 100px;
     position: fixed;
@@ -425,7 +485,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 23%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -438,7 +498,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 23%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -451,7 +511,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 23%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -464,7 +524,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 27%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -477,7 +537,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 27%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -516,7 +576,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 18%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -529,7 +589,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 18%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -542,7 +602,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 18%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -555,7 +615,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 18%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -568,7 +628,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 15%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -581,7 +641,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 15%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -594,7 +654,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 15%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -607,7 +667,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 15%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -620,7 +680,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 29%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -633,7 +693,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 29%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -646,7 +706,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 30%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -659,7 +719,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 20%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -671,7 +731,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 20%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -683,7 +743,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 20%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -767,7 +827,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 22%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -779,7 +839,7 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 13%;
+    left: 22%;
     top: 30%;
     align-items: center;
     font-size: 100px;
@@ -812,6 +872,333 @@ h1 {
     z-index: 5;
 }
 #w4caption14 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w5caption1 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w5caption2 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption3 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption4 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 30%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption5 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 30%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption6 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 30%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption7 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption8 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption9 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption10 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w5caption11 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 26%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+#w5caption12 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 26%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption1 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption2 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption3 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption4 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 11%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption5 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 11%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption6 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 11%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption7 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 11%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption8 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 8%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption9 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 8%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption10 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 8%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption11 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 24%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption12 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 24%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption13 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 24%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption14 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+#w6caption15 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
