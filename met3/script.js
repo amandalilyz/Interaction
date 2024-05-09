@@ -469,11 +469,11 @@ window.onload = function () {
             ],
             translateY: [
                 [12000, 16000],
-                [950, 0]
+                [400, 0]
             ],
             translateX: [
                 [12000, 16000],
-                [-90, 0]
+                [40, 0]
             ],
         },
      
@@ -619,7 +619,7 @@ window.onload = function () {
     lax.addElements("#woman5", {
         scrollY: {
             scale: [
-                [15800, 18000],
+                [15800, 19000],
                 [14, 1]
             ],
             opacity: [
