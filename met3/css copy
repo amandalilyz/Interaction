@@ -1,0 +1,274 @@
+section {
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+h1 {
+    animation: floatUpDown 3s ease infinite;
+}
+
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: translateY(0.1vw); /* Adjust translateY using viewport width */
+    }
+    50% {
+        transform: translateY(-0.1vw); /* Adjust translateY using viewport width */
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .p {
+        font-family: "freight-big-pro", serif;
+        font-weight: 400;
+        font-style: italic;
+        left: 0%;
+        top: 20%;
+        align-items: center;
+        font-size: 10px;
+        position: fixed;
+        color: white;
+        z-index: 5;
+    }
+} 
+
+.image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.image-with-caption {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+#image1 {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/fbc66e73-f7e2-499b-9a04-2361157a4a57.main-image.png?v=1713907914599");
+    background-size: 100%;
+}
+
+#image1blur {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/full%20pixel.png?v=1715051088318");
+    background-size: 140%;
+    z-index: 4;
+
+}
+
+#image2 {
+    background-image: url("");
+    background-size: 100%;
+    background-position: bottom;
+}
+
+#woman2background2 {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/556673e8-0895-47ab-84dc-07749ef26f3b.bachvjhb.png?v=1715057599325");
+    background-size: 200%;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    transform-origin: center; /* Ensure transformations happen from the left center */
+}
+
+#woman2 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/dkslkdfslnkfss.png?v=1714518692089");
+    background-size: 100%;
+    z-index: 4;
+
+}
+
+#woman3background1 {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM.png?v=1715090759146");
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    transform-origin: center; /* Ensure transformations happen from the left center */
+}
+
+#woman3background2 {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM%202.png?v=1715090761297");
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    transform-origin: center; /* Ensure transformations happen from the left center */
+}
+
+#woman3background3 {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM%205.png?v=1715091093860");
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    transform-origin: center; /* Ensure transformations happen from the left center */
+}
+
+#woman3 {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM%203.png?v=1715090763297");
+    background-size: 100%;
+    z-index: 7;
+}
+
+#woman3yellow {
+    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM%204.png?v=1715090765891");
+    background-size: 100%;
+    z-index: 7;
+}
+
+#woman4 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Screenshot%202024-05-07%20at%2010.19.36%E2%80%AFAM.png?v=1715092075955");
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    transform-origin: center; /* Ensure transformations happen from the left center */
+}
+
+#woman5 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Screenshot%202024-05-07%20at%2010.49.04%E2%80%AFAM.png?v=1715093542961");
+    background-size: 100%;
+    z-index: 3;
+}
+
+#woman6 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/adcdb440-b920-4262-84cc-29a3c4fed8d8.Screenshot%202024-05-07%20at%2010.54.54%E2%80%AFAM.png?v=1715093923924");
+    background-size: 100%;
+    z-index: 2;
+}
+
+#image6 {
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Screenshot%202024-04-25%20at%205.18.06%E2%80%AFPM.png?v=1714080403561");
+    background-size: 110%;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 243, 201);
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 6;
+}
+
+#text1 {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 0%;
+    top: 50%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
+    z-index: 5;
+}
+#w1met {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 0%;
+    top: 22%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
+    z-index: 5;
+}
+
+#w2met {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 0%;
+    top: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: rgb(255, 243, 201);
+    z-index: 4;
+}
+
+#w1caption {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 12%;
+    top: 20%;
+    align-items: center;
+    font-size: 135px;
+    position: fixed;
+    color: rgb(237, 247, 255);
+    z-index: 5;
+}
+
+#w6-cap1 {
+font-family: "freight-big-pro", serif;
+font-weight: 400;
+font-style: italic;
+left: 10%;
+top: 20%;
+align-items: center;
+font-size: 150px;
+position: fixed;
+color: white;
+z-index: 5; 
+}
+
+
+
+#w2caption {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    left: 13%;
+    top: 30%;
+    align-items: center;
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    z-index: 5;
+}
+
+
+
+.text-container {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-50%);
+}
+
+
+.background-text {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    font-style: bold;
+    margin-top: -190px; /* Adjust the value to move the paragraph up */
+    align-items: center;
+    font-size: 250px;
+    color: rgb(255, 243, 201);
+    transition: all 0.3s ease;
+}

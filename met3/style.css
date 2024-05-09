@@ -72,9 +72,9 @@ h1 {
         font-family: "freight-big-pro", serif;
         font-weight: 400;
         font-style: italic;
-        margin-top: 400px; /* Adjust the value to move the paragraph up */
+        margin-top: 350px; /* Adjust the value to move the paragraph up */
         align-items: center;
-        font-size: 100px;
+        font-size: 75px;
         z-index: 8;
         color: rgb(237, 247, 255);
         transition: all 0.3;
@@ -110,7 +110,7 @@ h1 {
 }
 
 #woman3background1 {
-    background-image: url("https://cdn.glitch.global/dfc81ada-2d96-408e-aa89-e5bf6c0e27be/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM.png?v=1715090759146");
+    background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/Screenshot_2024-05-04_at_9.03.47%E2%80%AFPM%207.png?v=1715294797479");
     background-size: 100%;
     background-position: center;
     position: absolute;
