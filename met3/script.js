@@ -629,15 +629,15 @@ window.onload = function () {
     lax.addElements("#woman5", {
         scrollY: {
             scale: [
-                [15800, 19000],
+                [15800, 20000],
                 [14, 1]
             ],
             opacity: [
-                [0, 15800, 15801, 19000, 19100],
-                [0, 0, 1, 1, 0]
+                [0, 15800, 15801,],
+                [0, 0, 1,]
             ],
             translateY: [
-                [16000, 18000],
+                [16000, 20000],
                 [60, 0]
             ]
         },
@@ -755,19 +755,19 @@ window.onload = function () {
     lax.addElements("#woman6", {
         scrollY: {
             scale: [
-                [19000, 21500],
+                [19900, 22000],
                 [6, 1]
             ],
             opacity: [
-                [0, 18900, 19000],
-                [0, 0, 1]
+                [0, 19900, 20000, 30000],
+                [0, 0, 1, 1]
             ],
             translateY: [
-                [19000, 21500, 21500, 22000],
+                [19900, 22000, 22001, 23000],
                 [200, 0, 0, -window.innerHeight]
             ],
             translateX: [
-                [19000, 21500],
+                [19900, 22000],
                 [-1200, 0]
             ]
                
@@ -908,14 +908,22 @@ window.onload = function () {
     lax.addElements("#lastimage", {
         scrollY: {
             scale: [
-                [22000, 23000],
+                [22500, 23500],
                 [1, 3.5]
             ],
             translateY: [
-                [21500, 22000],
+                [22000, 22500],
                 [window.innerHeight, 0]
             ],
         },
+    });
+    lax.addElements("#lasttext", {
+        scrollY: {
+            opacity: [
+                [23500, 23600],
+                [0, 1]                // Opacity: 1 (100%) to 0 (0%)
+            ],
+        }
     });
     lax.addElements("#lastblur", {
         scrollY: {
@@ -932,15 +940,6 @@ window.onload = function () {
                 [0, 0, 1]
             ],
         },
-    });
-
-    lax.addElements("#lasttext", {
-        scrollY: {
-            opacity: [
-                [22500, 23000],
-                [0, 1]                // Opacity: 1 (100%) to 0 (0%)
-            ],
-        }
     });
 }
 

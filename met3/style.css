@@ -72,10 +72,10 @@ h1 {
         font-family: "freight-big-pro", serif;
         font-weight: 400;
         font-style: italic;
-        margin-top: -190px; /* Adjust the value to move the paragraph up */
+        margin-top: 400px; /* Adjust the value to move the paragraph up */
         align-items: center;
-        font-size: 250px;
-        z-index: 7;
+        font-size: 100px;
+        z-index: 8;
         color: rgb(237, 247, 255);
         transition: all 0.3;
 } 
@@ -83,7 +83,7 @@ h1 {
 #lastblur {
     background-image: url("https://cdn.glitch.global/570400b6-e26e-49a0-9b9e-0719483b3d3b/95ad7148-6cf1-4582-b55b-430fcd6ddbb6.full%20pixel.jpg?v=1715148596046");
     background-size: 140%;
-    z-index: 4;
+    z-index: 2;
 }
 
 #image2 {
@@ -197,10 +197,11 @@ h1 {
     font-family: "freight-big-pro", serif;
     font-weight: 400;
     font-style: italic;
-    left: 0%;
-    top: 50%;
+    left: 5%;
+    top: 53%;
     align-items: center;
-    font-size: 100px;
+    text-align: center;
+    font-size: 220px;
     position: fixed;
     color: rgb(255, 243, 201);
     z-index: 5;
@@ -238,7 +239,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     left: 6%;
-    top: 22%;
+    top: 26%;
     align-items: center;
     font-size: 100px;
     position: fixed;
@@ -289,10 +290,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 15%;
+    left: 9%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -302,10 +303,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 15%;
+    left: 9%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -315,10 +316,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 15%;
+    left: 9%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -328,10 +329,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 17%;
+    left: 10%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -341,10 +342,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 17%;
+    left: 10%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -354,10 +355,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 17%;
+    left: 10%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -367,10 +368,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 17%;
+    left: 10%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -380,10 +381,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 22%;
+    left: 16%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -393,10 +394,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 22%;
+    left: 16%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -406,10 +407,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 22%;
+    left: 16%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -419,10 +420,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 18%;
+    left: 12%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -431,10 +432,10 @@ h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: italic;
-    left: 18%;
+    left: 12%;
     top: 30%;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     position: fixed;
     color: rgb(237, 247, 255);
     z-index: 5;
@@ -1237,4 +1238,211 @@ h1 {
     font-size: 250px;
     color: rgb(237, 247, 255);
     transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Target elements with IDs starting with 'w_met_' */
+   .text-container {
+        font-size: 10px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        align-items: center;
+
+        /* Adjust any other styles as needed */
+    }
+    #text1 {
+        font-size: 140px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        align-items: center;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+        /* Adjust any other styles as needed */
+    
+    #w1caption1 {
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption2{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption3
+    {
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption4{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption5{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption6{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption7{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption8{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption9{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption10{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption11{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+    #w1caption12{
+        font-size: 50px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 20%;
+        margin-right: 20%;
+         position: center; /* Consider using absolute positioning */
+        text-align: center; /* Adjust any other styles as needed */
+        }
+
+        #w2caption1 {
+            font-size: 10px; /* Adjust the font size as needed for mobile screens */
+            position: center; /* Consider using absolute positioning */
+            padding-right: 15%;
+             position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+            }
+
+#w2caption2 {
+        font-size: px; /* Adjust the font size as needed for mobile screens */
+        position: center; /* Consider using absolute positioning */
+        padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+            top: 50%;
+        }
+        #w2caption3 {
+            font-size: 50px; /* Adjust the font size as needed for mobile screens */
+            position: center; /* Consider using absolute positioning */
+            padding-right: 15%;
+                position: center; /* Consider using absolute positioning */
+                text-align: center; /* Adjust any other styles as needed */
+            }
+            #w2caption4 {
+                font-size: 50px; /* Adjust the font size as needed for mobile screens */
+                position: center; /* Consider using absolute positioning */
+                padding-right: 15%;
+                    position: center; /* Consider using absolute positioning */
+                    text-align: center; /* Adjust any other styles as needed */
+                }
+        #w2caption5 {
+            font-size: 50px; /* Adjust the font size as needed for mobile screens */
+            position: center; /* Consider using absolute positioning */
+            padding-right: 15%;
+            position: center; /* Consider using absolute positioning */
+            text-align: center; /* Adjust any other styles as needed */
+        }
+        #w2caption6 {
+            font-size: 50px; /* Adjust the font size as needed for mobile screens */
+            position: center; /* Consider using absolute positioning */
+            padding-right: 15%;
+                position: center; /* Consider using absolute positioning */
+                text-align: center; /* Adjust any other styles as needed */
+            }
+            #w2caption7 {
+                font-size: 50px; /* Adjust the font size as needed for mobile screens */
+                position: center; /* Consider using absolute positioning */
+                padding-right: 15%;
+                    position: center; /* Consider using absolute positioning */
+                    text-align: center; /* Adjust any other styles as needed */
+                }
+    
+    #w1met {
+        font-size: 40px; /* Adjust the font size as needed for mobile screens */
+        margin-left: 18%;
+        margin-right: 18%;
+        top: 34%;
+        position: center; /* Consider using absolute positioning */
+        /* Adjust any other styles as needed */
+    }
+    #w2met {
+        font-size: 10px; /* Adjust the font size as needed for mobile screens */
+        margin-left: 25%;
+        margin-right: 25%;
+        top: 47%;
+        position: center; /* Consider using absolute positioning */
+        /* Adjust any other styles as needed */
+    }
+    #w3met {
+        font-size: 10px; /* Adjust the font size as needed for mobile screens */
+        margin-left: 40%;
+        margin-right: 38%;
+        top: 51%;
+        position: center; /* Consider using absolute positioning */
+        /* Adjust any other styles as needed */
+    }
+    #w4met {
+        font-size: 10px; /* Adjust the font size as needed for mobile screens */
+        margin-left: 35%;
+        margin-right: 40%;
+        top: 47%;
+        position: center; /* Consider using absolute positioning */
+        /* Adjust any other styles as needed */
+    }
+    #w5met {
+        font-size: 10px; /* Adjust the font size as needed for mobile screens */
+        margin-left: 38%;
+        margin-right: 38%;
+        top: 47%;
+        position: center; /* Consider using absolute positioning */
+        /* Adjust any other styles as needed */
+    }
+    #w6met {
+        font-size: 10px; /* Adjust the font size as needed for mobile screens */
+        margin-left: 40%;
+        margin-right: 40%;
+        top: 47%;
+        position: center; /* Consider using absolute positioning */
+        /* Adjust any other styles as needed */
+    }
 }
