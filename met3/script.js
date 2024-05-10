@@ -14,6 +14,38 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 })
 
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/481438")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log("data", data);
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/207502")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log("data", data);
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/271716")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log("data", data);
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/261068")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log("data", data);
+    })
+})
+
 const CSSPairs = {
     image1ScaleIn: [
         4, 8
