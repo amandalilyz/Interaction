@@ -73,16 +73,20 @@ galleryItems.forEach(item => {
         `;
 
         // Loop through the data-image attributes
-        let i = 1;
+   let i = 1;
         while (this.hasAttribute(`data-image-${i}`)) {
             let dataImageSrc = this.getAttribute(`data-image-${i}`);
+            let dataImageDescription = this.getAttribute(`data-image-${i}-description`);
             
-            // Add each additional image to the about section content
+            // Add each additional image and description with line breaks in between
             aboutSectionContent += `
+                <p>${dataImageDescription}</p>
                 <img src="${dataImageSrc}" style="max-width: 100%; height: auto;" />
+                <br><br> <!-- Add space between each description and image -->
             `;
             i++;
         }
+        
 
         // Update the about section with the content
         aboutSection.innerHTML = aboutSectionContent;
