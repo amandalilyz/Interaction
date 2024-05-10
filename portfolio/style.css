@@ -12,6 +12,8 @@ html,body{
         margin-bottom: 40px; /* Adjust the value as needed */
         font-weight: normal; /* Optional: Bold font style */
         font-size: 40px; /* Optional: Larger font size */
+        letter-spacing: -2px; /* Adjusts the spacing between characters */
+
     }
     
     #about {
@@ -21,6 +23,9 @@ html,body{
         margin-left: 8%;
         margin-right: 1%;
     }
+
+    #email {
+margin-top: 50px;    }
     
     #gallery {
         flex: 2; /* Takes up 2/3 of the width */
@@ -34,7 +39,6 @@ html,body{
         box-sizing: border-box;
     }
 
-    
     
 
     body{
@@ -81,19 +85,21 @@ html,body{
             z-index: 1000; /* Ensure the menu stays above other content */
     
     
+
     }
     .filter-menu li{
     margin-top: 30px;
     display: inline-block;
-    padding: 10px 38px;
+    padding: 12px 42px;
     background:rgb(255, 255, 255);
     color: #000000;
     cursor: pointer;
+    
     }
     .filter-menu li:hover,
     .filter-menu li.current{
     background:rgb(255, 255, 255);
-    color: #000;
+    color: #e40000;
     font-weight: light;
     }
     .filter-item li{
